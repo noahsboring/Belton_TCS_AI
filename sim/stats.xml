@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-10-16 15:21:22 by Eclipse SUMO sumo Version 1.24.0
+<!-- generated on 2025-10-20 14:32:27 by Eclipse SUMO GUI Version 1.24.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="sim/osm.net.xml.gz"/>
-        <route-files value="sim/osm.bus.trips.xml,sim/osm.motorcycle.trips.xml,sim/osm.passenger.trips.xml,sim/osm.truck.trips.xml"/>
-        <additional-files value="sim/osm.poly.xml.gz,sim/output.add.xml"/>
+        <net-file value="/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/osm.net.xml.gz"/>
+        <route-files value="/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/osm.bus.trips.xml,/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/osm.motorcycle.trips.xml,/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/osm.passenger.trips.xml,/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/osm.truck.trips.xml"/>
+        <additional-files value="/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/osm.poly.xml.gz,/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/output.add.xml,/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/detectors.add.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="sim/tripinfos.xml"/>
-        <statistic-output value="sim/stats.xml"/>
+        <tripinfo-output value="/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/tripinfos.xml"/>
+        <statistic-output value="/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/stats.xml"/>
     </output>
+
+    <time>
+        <step-length value="1"/>
+    </time>
 
     <processing>
         <ignore-route-errors value="true"/>
@@ -30,26 +34,21 @@
         <no-step-log value="true"/>
     </report>
 
-    <traci_server>
-        <remote-port value="64902"/>
-    </traci_server>
-
     <gui_only>
-        <gui-settings-file value="sim/osm.view.xml"/>
-        <start value="true"/>
+        <gui-settings-file value="/home/jesse-mccaslin/Downloads/Sumo/SUMO_SIM/../../2025-09-22-15-39-59/osm.view.xml"/>
     </gui_only>
 
 </sumoConfiguration>
 -->
 
 <statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
-    <performance clockBegin="9653.45" clockEnd="9653.77" clockDuration="0.32" traciDuration="0.00" realTimeFactor="62.11" vehicleUpdatesPerSecond="2145.96" personUpdatesPerSecond="0.00" begin="0.00" end="20.00" duration="20.00"/>
-    <vehicles loaded="679" inserted="66" running="66" waiting="0"/>
-    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
-    <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
+    <performance clockBegin="1760988748.10" clockEnd="1760988982.53" clockDuration="234.44" traciDuration="7.63" realTimeFactor="22.03" vehicleUpdatesPerSecond="28894.35" personUpdatesPerSecond="0.00" begin="0.00" end="5164.00" duration="5164.00"/>
+    <vehicles loaded="12201" inserted="12201" running="0" waiting="0"/>
+    <teleports total="65" jam="24" yield="40" wrongLane="1"/>
+    <safety collisions="0" emergencyStops="1" emergencyBraking="5"/>
     <persons loaded="0" running="0" jammed="0"/>
     <personTeleports total="0" abortWait="0" wrongDest="0"/>
-    <vehicleTripStatistics count="0" routeLength="0.00" speed="0.00" duration="0.00" waitingTime="0.00" timeLoss="0.00" departDelay="0.00" departDelayWaiting="-1.00" totalTravelTime="0.00" totalDepartDelay="0.00"/>
+    <vehicleTripStatistics count="12201" routeLength="4088.37" speed="8.61" duration="555.19" waitingTime="191.32" timeLoss="305.39" departDelay="2.36" departDelayWaiting="-1.00" totalTravelTime="6773932.00" totalDepartDelay="28774.95"/>
     <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
     <rideStatistics number="0"/>
     <transportStatistics number="0"/>

@@ -2,4 +2,8 @@
 <viewsettings>
     <scheme name="real world"/>
     <delay value="20"/>
+<show>
+<detectors value="true"/>
+        <e2detectors value="true"/>
+    </show>
 </viewsettings>

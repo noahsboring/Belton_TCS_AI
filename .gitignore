@@ -1,0 +1,6 @@
+# SUMO output and detector logs
+sim/detector_output.xml
+sim/detector_output*.xml
+*.det.xml
+*.out.xml
+*.netedit_bak.xml
